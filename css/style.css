@@ -1,4 +1,4 @@
-﻿/*
+/*
   [CSS Index]
 */
 
@@ -4562,4 +4562,18 @@ height: 50px;
 h6 {
 display: none!important;
 visibility: hidden!important;
+}
+
+/* Wall images: show grayscale by default and reveal color on hover */
+#wall .wall-item img,
+.wall-item img {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  transition: filter 0.5s ease, -webkit-filter 0.5s ease;
+  object-fit: cover;
+}
+#wall .wall-item:hover img,
+.wall-item:hover img {
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
 }

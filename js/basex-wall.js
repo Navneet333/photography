@@ -425,118 +425,112 @@ $(function() {
 // 11. the Wall
 window.addEvent("domready", function() {
     var imagewall = [
-        ["the-wall/1.jpg", [
-            ["the-wall/1-2.jpg", "Item Name<br \/>\r\nCommercial / Stock"]
+        ["img/heroimgs/img1-2.jpg", [
+            ["img/heroimgs/img1.jpg", "Photography<br \/>\r\nFashion"]
         ]],
-        ["the-wall/2.jpg", [
-            ["the-wall/2-2.jpg", "Item Name<br \/>\r\nBeauty / Fashion"]
-        ]],
-        ["the-wall/3.jpg", [
-            ["the-wall/3-2.jpg", "Item Name<br \/>\r\nLife / Stories"]
-        ]],
-        ["the-wall/4.jpg", [
+        ["img/heroimgs/img3-2.JPG", [
             ["the-wall/4-2.jpg", "Item Name<br \/>\r\nPeople / Portraits"]
         ]],
-        ["the-wall/5.jpg", [
+        ["img/heroimgs/img4-2.JPG", [
+            ["the-wall/3-2.jpg", "Item Name<br \/>\r\nLife / Stories"]
+        ]],
+        ["img/heroimgs/img5-2.JPG", [
+            ["the-wall/4-2.jpg", "Item Name<br \/>\r\nPeople / Portraits"]
+        ]],
+        ["img/heroimgs/img6-2.JPG", [
             ["the-wall/5-2.jpg", "Item Name<br \/>\r\nEditorials / Magazines"]
         ]],
-        ["the-wall/6.jpg", [
+        ["img/heroimgs/img7-2.jpg", [
             ["the-wall/6-2.jpg", "Item Name<br \/>\r\nCommercial / Stock"]
         ]],
-        ["the-wall/7.jpg", [
+        ["img/heroimgs/img8-2.jpg", [
             ["the-wall/7-2.jpg", "Item Name<br \/>\r\nBeauty / Fashion"]
         ]],
-        ["the-wall/8.jpg", [
+        ["img/heroimgs/img9-2.jpg", [
             ["the-wall/8-2.jpg", "Item Name<br \/>\r\nLife / Stories"]
         ]],
-        ["the-wall/9.jpg", [
+        ["img/heroimgs/img10-2.jpg", [
             ["the-wall/9-2.jpg", "Item Name<br \/>\r\nPeople / Portraits"]
         ]],
-        ["the-wall/10.jpg", [
+        ["img/heroimgs/img11-2.jpg", [
             ["the-wall/10-2.jpg", "Item Name<br \/>\r\nEditorials / Magazines"]
         ]],
-        ["the-wall/11.jpg", [
+        ["img/heroimgs/img12-2.jpg", [
             ["the-wall/11-2.jpg", "Item Name<br \/>\r\nCommercial / Stock"]
         ]],
-        ["the-wall/12.jpg", [
+        ["img/heroimgs/img13-2.jpg", [
             ["the-wall/12-2.jpg", "Item Name<br \/>\r\nBeauty / Fashion"]
         ]],
-        ["the-wall/13.jpg", [
-            ["the-wall/13-2.jpg", "Item Name<br \/>\r\nLife / Stories"],
+        ["img/heroimgs/img14-2.jpg", [
+            ["img/heroimgs/img14-2.jpg", "Item Name<br \/>\r\nLife / Stories"],
             ["the-wall/13-3.jpg", "Item Name 2<br \/>\r\nLife / Stories"],
             ["the-wall/13-4.jpg", "Item Name 3<br \/>\r\nLife / Stories"]
         ]],
-        ["the-wall/14.jpg", [
+        ["img/heroimgs/img15-2.jpg", [
             ["the-wall/14-2.jpg", "Item Name<br \/>\r\nPeople / Portraits"]
         ]],
-        ["the-wall/15.jpg", [
+        ["img/heroimgs/img16-2.jpg", [
             ["the-wall/15-2.jpg", "Item Name<br \/>\r\nEditorials / Magazines"]
         ]],
-        ["the-wall/16.jpg", [
-            ["the-wall/16-2.jpg", "Item Name<br \/>\r\nCommercial / Stock"]
+        // Repeat cycle starts
+        ["img/heroimgs/img1-2.jpg", [
+            ["img/heroimgs/img1.jpg", "Photography<br \/>\r\nFashion"]
         ]],
-        ["the-wall/17.jpg", [
-            ["the-wall/17-2.jpg", "Item Name<br \/>\r\nBeauty / Fashion"]
+        ["img/heroimgs/img3-2.JPG", [
+            ["the-wall/4-2.jpg", "Item Name<br \/>\r\nPeople / Portraits"]
         ]],
-        ["the-wall/18.jpg", [
-            ["the-wall/18-2.jpg", "Item Name<br \/>\r\nLife / Stories"]
+        ["img/heroimgs/img4-2.JPG", [
+            ["the-wall/3-2.jpg", "Item Name<br \/>\r\nLife / Stories"]
         ]],
-        ["the-wall/19.jpg", [
-            ["the-wall/19-2.jpg", "Item Name<br \/>\r\nPeople / Portraits"]
+        ["img/heroimgs/img5-2.JPG", [
+            ["the-wall/4-2.jpg", "Item Name<br \/>\r\nPeople / Portraits"]
         ]],
-        ["the-wall/20.jpg", [
-            ["the-wall/20-2.jpg", "Item Name<br \/>\r\nEditorials / Magazines"]
+        ["img/heroimgs/img6-2.JPG", [
+            ["the-wall/5-2.jpg", "Item Name<br \/>\r\nEditorials / Magazines"]
         ]],
-        ["the-wall/21.jpg", [
-            ["the-wall/21-2.jpg", "Item Name<br \/>\r\nCommercial / Stock"]
+        ["img/heroimgs/img7-2.jpg", [
+            ["the-wall/6-2.jpg", "Item Name<br \/>\r\nCommercial / Stock"]
         ]],
-        ["the-wall/22.jpg", [
-            ["the-wall/22-2.jpg", "Item Name<br \/>\r\nBeauty / Fashion"]
+        ["img/heroimgs/img8-2.jpg", [
+            ["the-wall/7-2.jpg", "Item Name<br \/>\r\nBeauty / Fashion"]
         ]],
-        ["the-wall/23.jpg", [
-            ["the-wall/23-2.jpg", "Item Name<br \/>\r\nLife / Stories"]
+        ["img/heroimgs/img9-2.jpg", [
+            ["the-wall/8-2.jpg", "Item Name<br \/>\r\nLife / Stories"]
         ]],
-        ["the-wall/24.jpg", [
-            ["the-wall/24-2.jpg", "Item Name<br \/>\r\nPeople / Portraits"]
+        ["img/heroimgs/img10-2.jpg", [
+            ["the-wall/9-2.jpg", "Item Name<br \/>\r\nPeople / Portraits"]
         ]],
-        ["the-wall/25.jpg", [
-            ["the-wall/25-2.jpg", "Item Name<br \/>\r\nEditorials / Magazines"]
+        ["img/heroimgs/img11-2.jpg", [
+            ["the-wall/10-2.jpg", "Item Name<br \/>\r\nEditorials / Magazines"]
         ]],
-        ["the-wall/26.jpg", [
-            ["the-wall/26-2.jpg", "Item Name<br \/>\r\nCommercial / Stock"]
+        ["img/heroimgs/img12-2.jpg", [
+            ["the-wall/11-2.jpg", "Item Name<br \/>\r\nCommercial / Stock"]
         ]],
-        ["the-wall/27.jpg", [
-            ["the-wall/27-2.jpg", "Item Name<br \/>\r\nBeauty / Fashion"]
+        ["img/heroimgs/img13-2.jpg", [
+            ["the-wall/12-2.jpg", "Item Name<br \/>\r\nBeauty / Fashion"]
         ]],
-        ["the-wall/28.jpg", [
-            ["the-wall/28-2.jpg", "Item Name<br \/>\r\nLife / Stories"]
+        ["img/heroimgs/img14-2.jpg", [
+            ["img/heroimgs/img14-2.jpg", "Item Name<br \/>\r\nLife / Stories"],
+            ["the-wall/13-3.jpg", "Item Name 2<br \/>\r\nLife / Stories"],
+            ["the-wall/13-4.jpg", "Item Name 3<br \/>\r\nLife / Stories"]
         ]],
-        ["the-wall/29.jpg", [
-            ["the-wall/29-2.jpg", "Item Name<br \/>\r\nPeople / Portraits"]
+        ["img/heroimgs/img15-2.jpg", [
+            ["the-wall/14-2.jpg", "Item Name<br \/>\r\nPeople / Portraits"]
         ]],
-        ["the-wall/30.jpg", [
-            ["the-wall/30-2.jpg", "Item Name<br \/>\r\nEditorials / Magazines"]
+        ["img/heroimgs/img1-2.jpg", [
+            ["img/heroimgs/img1.jpg", "Photography<br \/>\r\nFashion"]
         ]],
-        ["the-wall/31.jpg", [
-            ["the-wall/31-2.jpg", "Item Name<br \/>\r\nCommercial / Stock"]
+        ["img/heroimgs/img3-2.JPG", [
+            ["the-wall/4-2.jpg", "Item Name<br \/>\r\nPeople / Portraits"]
         ]],
-        ["the-wall/32.jpg", [
-            ["the-wall/32-2.jpg", "Item Name<br \/>\r\nBeauty / Fashion"]
+        ["img/heroimgs/img4-2.JPG", [
+            ["the-wall/3-2.jpg", "Item Name<br \/>\r\nLife / Stories"]
         ]],
-        ["the-wall/33.jpg", [
-            ["the-wall/33-2.jpg", "Item Name<br \/>\r\nLife / Stories"]
+        ["img/heroimgs/img5-2.JPG", [
+            ["the-wall/4-2.jpg", "Item Name<br \/>\r\nPeople / Portraits"]
         ]],
-        ["the-wall/34.jpg", [
-            ["the-wall/34-2.jpg", "Item Name<br \/>\r\nPeople / Portraits"]
-        ]],
-        ["the-wall/35.jpg", [
-            ["the-wall/35-2.jpg", "Item Name<br \/>\r\nEditorials / Magazines"]
-        ]],
-        ["the-wall/36.jpg", [
-            ["the-wall/36-2.jpg", "Item Name<br \/>\r\nCommercial / Stock"]
-        ]],
-        ["the-wall/plus-1.jpg", [
-            ["the-wall/plus-1-2.jpg", "Item Name<br \/>\r\nBeauty / Fashion"] // an extra image to compensate for the gap
+        ["img/heroimgs/img6-2.JPG", [
+            ["the-wall/5-2.jpg", "Item Name<br \/>\r\nEditorials / Magazines"]
         ]]
     ];
     var maxLength = 36;
@@ -563,7 +557,36 @@ window.addEvent("domready", function() {
                         position = Math.floor(Math.random() * maxLength);
                     }
                     var file = imagewall[position][0];
-                    var img = new Element("img[src=" + file + "]");
+                    // if main file is empty, fallback to the first slideshow image (if present)
+                    if (!file || file === "") {
+                        if (imagewall[position][1] && imagewall[position][1].length && imagewall[position][1][0][0]) {
+                            file = imagewall[position][1][0][0];
+                        }
+                    }
+                    // create image element safely and force it to fit the card
+                    var img = new Element('img', { src: file });
+                    // ensure the item node hides overflow so images don't resize the card
+                    try { items[i].node.setStyle('overflow', 'hidden'); } catch (e) {}
+                    // apply styles so image fills the item without affecting layout
+                    try {
+                        img.setStyles({
+                            width: '100%',
+                            height: '100%',
+                            'max-width': '100%',
+                            'max-height': '100%',
+                            display: 'block'
+                        });
+                        // object-fit is not supported by older Mootools setStyles in some cases,
+                        // add it via style property if available
+                        try { img.style.objectFit = 'cover'; } catch (e) {}
+                    } catch (e) {}
+                    // ensure image is grayscale by default and has a smooth transition to color
+                    try {
+                        img.style.filter = 'grayscale(100%)';
+                        img.style.webkitFilter = 'grayscale(100%)';
+                        img.style.transition = 'filter 0.5s ease';
+                        img.style.webkitTransition = '-webkit-filter 0.5s ease';
+                    } catch (e) {}
                     img.inject(items[i].node).fade("hide").fade("in");
                     var list = new Element("ul");
                     list.setProperty("class", "slideshow")
@@ -586,6 +609,7 @@ window.addEvent("domready", function() {
                     var firstSlide = true;
                     items[i].node.addEvents({
                         mouseenter: function(event) {
+                            try { img.style.filter = 'grayscale(0%)'; img.style.webkitFilter = 'grayscale(0%)'; } catch (e) {}
                             list.getChildren("li").setStyles({
                                 "visibility": "hidden",
                                 "opacity": 0
@@ -619,6 +643,7 @@ window.addEvent("domready", function() {
                             return false;
                         },
                         mouseleave: function() {
+                            try { img.style.filter = 'grayscale(100%)'; img.style.webkitFilter = 'grayscale(100%)'; } catch (e) {}
                             stop = true;
                             firstSlide = true;
                             if (imagewall[position][1].length) {
