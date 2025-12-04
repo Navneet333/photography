@@ -109,7 +109,7 @@ background-image: url(../img/team/4.jpg);
 
 /* 1.4. about parallax IMG BACKGROUND */
 .parallax-years {
-background-image: url(../img/about/1.jpg);
+background-image: url(../img/heroimgs/img9.jpg);
 }
 
 
@@ -2352,6 +2352,13 @@ color: #5f5f5f;
 text-decoration: none;
 }
 
+/* Desktop responsiveness for quote */
+@media only screen and (min-width: 1200px) {
+  .quote {
+    margin-top: -5rem;
+  }
+}
+
 .testimonial blockquote::before {
 content: "“";
 position: absolute;
@@ -2391,10 +2398,10 @@ letter-spacing: normal;
 .the-overline {
 position: relative;
 background: #5f5f5f;
-width: 90px;
-height: 9px;
+width: 300px;
+height: 4px;
 text-align: center;
-margin: 0 auto -15px auto;
+margin: -10px auto -15px auto;
 -webkit-transition: all 0.3s linear;
    -moz-transition: all 0.3s linear;
     -ms-transition: all 0.3s linear;
@@ -2404,7 +2411,9 @@ margin: 0 auto -15px auto;
 
 @media all and (min-width: 1920px) {
   .the-overline {
-    width: 100px;
+    width: 360px;
+    height: 4px;
+    margin: -10px auto -15px auto;
   }
 }
 
@@ -4562,6 +4571,11 @@ height: 50px;
 h6 {
 display: none!important;
 visibility: hidden!important;
+}
+
+/* Custom styling for divider after post-title in about section */
+.post-title-center + .divider-l {
+margin-top: -5rem;
 }
 
 /* Wall images: show grayscale by default and reveal color on hover */
