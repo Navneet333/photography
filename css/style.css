@@ -125,35 +125,51 @@ background-image: url(../img/facts/2.jpg);
 
 /* 1.6. works IMG BACKGROUND */
 .item-works-01 {
-background-image: url(../img/works/1.jpg);
+background-image: url(../img/heroimgs/img1.jpg);
 }
 
 .item-works-02 {
-background-image: url(../img/works/2.jpg);
+background-image: url(../img/heroimgs/img14.jpg);
 }
 
 .item-works-03 {
-background-image: url(../img/works/3.jpg);
+background-image: url(../img/heroimgs/img3.jpg);
 }
 
 .item-works-04 {
-background-image: url(../img/works/4.jpg);
+background-image: url(../img/heroimgs/img4.jpg);
 }
 
 .item-works-05 {
-background-image: url(../img/works/5.jpg);
+background-image: url(../img/heroimgs/img5.jpg);
 }
 
 .item-works-06 {
-background-image: url(../img/works/6.jpg);
+background-image: url(../img/heroimgs/img6.jpg);
 }
 
 .item-works-07 {
-background-image: url(../img/works/7.jpg);
+background-image: url(../img/heroimgs/img7.jpg);
 }
 
 .item-works-08 {
-background-image: url(../img/works/8.jpg);
+background-image: url(../img/heroimgs/img8.jpg);
+}
+
+.item-works-09 {
+background-image: url(../img/heroimgs/img10.jpg);
+}
+
+.item-works-10 {
+background-image: url(../img/heroimgs/img11.jpg);
+}
+
+.item-works-11 {
+background-image: url(../img/heroimgs/img12.jpg);
+}
+
+.item-works-12 {
+background-image: url(../img/heroimgs/img13.jpg);
 }
 
 
