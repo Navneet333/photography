@@ -4593,6 +4593,29 @@ visibility: hidden!important;
   }
 }
 
+/* Works section 4 cards per row layout */
+#works .col-md-3 {
+  padding: 0 0.5px;
+  margin-bottom: -18px;
+}
+
+#works .col-md-3 .circle-wrapper-full {
+  width: 99%;
+  padding-bottom: 115%;
+  margin: 0 auto;
+}
+
+#works .col-md-3 .more-wraper-center {
+  width: 80px;
+  height: 80px;
+}
+
+#works .col-md-3 .more-button-txt-center {
+  font-size: 10px;
+  top: 40px;
+  left: 40px;
+}
+
 /* Custom styling for divider after post-title in about section */
 .post-title-center + .divider-l {
 margin-top: -5rem;
