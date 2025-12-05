@@ -610,6 +610,28 @@ window.addEvent("domready", function() {
                     items[i].node.addEvents({
                         mouseenter: function(event) {
                             try { img.style.filter = 'grayscale(0%)'; img.style.webkitFilter = 'grayscale(0%)'; } catch (e) {}
+                            
+                            // Special handling for first image - show img1.jpg on hover
+                            if (position === 0 && imagewall[position][1][0][0] === "img/heroimgs/img1.jpg") {
+                                var hoverImg = new Element('img', { 
+                                    src: "img/heroimgs/img1.jpg",
+                                    styles: {
+                                        width: '100%',
+                                        height: '100%',
+                                        'object-fit': 'cover',
+                                        position: 'absolute',
+                                        top: 0,
+                                        left: 0,
+                                        'z-index': 10,
+                                        filter: 'none',
+                                        '-webkit-filter': 'none'
+                                    }
+                                });
+                                hoverImg.inject(items[i].node);
+                                img.fade("out");
+                                return false;
+                            }
+                            
                             list.getChildren("li").setStyles({
                                 "visibility": "hidden",
                                 "opacity": 0
@@ -644,6 +666,17 @@ window.addEvent("domready", function() {
                         },
                         mouseleave: function() {
                             try { img.style.filter = 'grayscale(100%)'; img.style.webkitFilter = 'grayscale(100%)'; } catch (e) {}
+                            
+                            // Remove hover image for first position
+                            if (position === 0) {
+                                var hoverImgs = items[i].node.getElements('img');
+                                if (hoverImgs.length > 1) {
+                                    hoverImgs[hoverImgs.length - 1].destroy();
+                                }
+                                img.fade("in");
+                                return false;
+                            }
+                            
                             stop = true;
                             firstSlide = true;
                             if (imagewall[position][1].length) {
